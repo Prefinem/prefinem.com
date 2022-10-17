@@ -1,0 +1,103 @@
+module.exports = {
+    env: {
+        browser: true,
+        es2021: true,
+    },
+    extends: ["eslint:all", "plugin:react/all", "prettier"],
+    overrides: [],
+    parserOptions: {
+        ecmaVersion: "latest",
+        sourceType: "module",
+    },
+    plugins: ["react"],
+    rules: {
+        "array-element-newline": "off",
+        "capitalized-comments": "off",
+        "class-methods-use-this": "off",
+        "eol-last": "off",
+        "func-style": "off",
+        "global-require": "off",
+        "id-length": "off",
+        "init-declarations": "off",
+        "lines-between-class-members": "off",
+        "max-lines-per-function": "off",
+        "multiline-comment-style": "off",
+        "multiline-ternary": "off",
+        "no-await-in-loop": "off",
+        "no-console": "off",
+        "no-extra-parens": "off",
+        "no-inline-comments": "off",
+        "no-invalid-this": "off",
+        "no-magic-numbers": "off",
+        "no-shadow": "off",
+        "no-sync": "off",
+        "no-tabs": "off",
+        "no-ternary": "off",
+        "no-undefined": "off",
+        "no-unused-expressions": [
+            "error",
+            {
+                allowShortCircuit: true,
+                allowTernary: true,
+            },
+        ],
+        "one-var": "off",
+        "padded-blocks": "off",
+        "padding-line-between-statements": [
+            "error",
+            {
+                blankLine: "always",
+                next: "*",
+                prev: ["const", "let", "var"],
+            },
+            {
+                blankLine: "any",
+                next: ["const", "let", "var"],
+                prev: ["const", "let", "var"],
+            },
+        ],
+        "prefer-named-capture-group": "off",
+        "quote-props": "off",
+        quotes: "off",
+        radix: "off",
+        "react/destructuring-assignment": "off",
+        "react/display-name": "off",
+        "react/forbid-component-props": "off",
+        "react/forbid-prop-types": "off",
+        "react/function-component-definition": [
+            2,
+            {
+                namedComponents: "arrow-function",
+            },
+        ],
+        "react/jsx-boolean-value": "off",
+        "react/jsx-child-element-spacing": "off",
+        "react/jsx-filename-extension": "off",
+        "react/jsx-max-depth": "off",
+        "react/jsx-no-bind": "off",
+        "react/jsx-no-literals": "off",
+        "react/jsx-one-expression-per-line": "off",
+        "react/jsx-props-no-spreading": "off",
+        "react/jsx-uses-react": "error",
+        "react/no-array-index-key": "off",
+        "react/no-multi-comp": [
+            "off",
+            {
+                ignoreStateless: true,
+            },
+        ],
+        "react/no-set-state": "off",
+        "react/no-string-refs": "off",
+        "react/prefer-stateless-function": "off",
+        "react/prop-types": "off",
+        "react/require-optimization": "off",
+        "require-jsdoc": "off",
+        "valid-jsdoc": "off",
+        "react/react-in-jsx-scope": "off",
+    },
+  "settings": {
+    "react": {
+      "version": "18.2.0"
+    }
+  }
+};
