@@ -1,7 +1,5 @@
-import './../styles/global.css';
+import "./../styles/global.css";
 
-const Prefinem = ({ Component, pageProps }) => {
-  return <Component {...pageProps} />
-}
+const Prefinem = ({ Component, pageProps }) => <Component {...pageProps} />;
 
-export default Prefinem
+export default Prefinem;

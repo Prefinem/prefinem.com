@@ -6,7 +6,7 @@ const HomePage = () => {
       <article>
         <header className="">
           <div className="w-[125px] mx-auto">
-            <img src="/images/logo.png" alt="logo" />
+            <img alt="logo" src="/images/logo.png" />
           </div>
           <h1 className="text-2xl">
             Prefinem <span className="text-xl">· \ prē-fi-,nem \</span>
@@ -27,8 +27,10 @@ const HomePage = () => {
           <ul className="list-disc ml-6">
             <li>
               <a
+                className="underline text-blue-500 mr-2"
                 href="http://prefinem.com/simple-icon-generator/"
-                target="_blank" className="underline text-blue-500 mr-2"
+                rel="noreferrer"
+                target="_blank"
               >
                 SIG
               </a>
@@ -36,36 +38,55 @@ const HomePage = () => {
             </li>
             <li>
               <a
+                className="underline text-blue-500 mr-2"
                 href="https://github.com/Prefinem/nativemodels"
-                target="_blank" className="underline text-blue-500 mr-2"
+                rel="noreferrer"
+                target="_blank"
               >
                 NativeModels
               </a>
               (JS Runtime Type System)
             </li>
             <li>
-              <a href="https://github.com/Prefinem/lambdify" target="_blank" className="underline text-blue-500 mr-2">
+              <a
+                className="underline text-blue-500 mr-2"
+                href="https://github.com/Prefinem/lambdify"
+                rel="noreferrer"
+                target="_blank"
+              >
                 Lambdify
               </a>
               (AWS Lambda utility library)
             </li>
             <li>
               <a
+                className="underline text-blue-500 mr-2"
                 href="https://github.com/Prefinem/lambda-image"
-                target="_blank" className="underline text-blue-500 mr-2"
+                rel="noreferrer"
+                target="_blank"
               >
                 Lambda Image
               </a>
               (Image library for easy image manipulation on AWS Lambda)
             </li>
             <li>
-              <a href="https://github.com/Prefinem/afpf" target="_blank" className="underline text-blue-500 mr-2">
+              <a
+                className="underline text-blue-500 mr-2"
+                href="https://github.com/Prefinem/afpf"
+                rel="noreferrer"
+                target="_blank"
+              >
                 afpf
               </a>
               (Async Functional Programming Functions)
             </li>
             <li>
-              <a href="https://github.com/Prefinem/redux-tools" target="_blank" className="underline text-blue-500 mr-2">
+              <a
+                className="underline text-blue-500 mr-2"
+                href="https://github.com/Prefinem/redux-tools"
+                rel="noreferrer"
+                target="_blank"
+              >
                 Redux Tools
               </a>
               (Library to make Redux Easy)
@@ -73,9 +94,19 @@ const HomePage = () => {
           </ul>
         </section>
         <footer className="flex justify-end flex-grow">
-            <a href="https://github.com/Prefinem" className="underline text-blue-500">@Prefinem</a>
-            &nbsp; | &nbsp;
-            <a href="mailto:william@prefinem.com" className="underline text-blue-500">william@prefinem.com</a>
+          <a
+            className="underline text-blue-500"
+            href="https://github.com/Prefinem"
+          >
+            @Prefinem
+          </a>
+          &nbsp; | &nbsp;
+          <a
+            className="underline text-blue-500"
+            href="mailto:william@prefinem.com"
+          >
+            william@prefinem.com
+          </a>
         </footer>
       </article>
     </div>
