@@ -100,13 +100,6 @@ const HomePage = () => {
           >
             @Prefinem
           </a>
-          &nbsp; | &nbsp;
-          <a
-            className="underline text-blue-500"
-            href="mailto:william@prefinem.com"
-          >
-            william@prefinem.com
-          </a>
         </footer>
       </article>
     </div>
